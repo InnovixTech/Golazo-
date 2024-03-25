@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Golazo!</title>
+  <meta name="title" content="Golazo!">
+  <meta name="description" content="Vive el fútbol en tu móvil">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="119" height="37" alt="Wren logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="119" height="37" alt="Wren logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="https://instagram.com/lexis.xit" class="navbar-link hover-1" data-nav-toggler>Soporte</a>
+          </li>
+
+          <li>
+            <a href="https://instagram.com/innovix.tech" class="navbar-link hover-1" data-nav-toggler>Diseñador</a>
+          </li>
+
+          <li>
+            <a href="https://instagram.com/innovix.tech" class="navbar-link hover-1" data-nav-toggler>Desarrollador</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-bottom">
+
+          <div class="profile-card">
+            <img src="./assets/images/author-1.png" width="48" height="48" alt="Steven" class="profile-banner">
+
+            <div>
+              <p class="card-title">Innovix Tech!</p>
+
+              <p class="card-subtitle">
+                Desarrollador Web
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <p class="copyright-text">
+          Copyright 2024 © - Diseño de blog App.
+          Diseñado y desarrollado por InnovixTech.
+        </p>
+
+      </nav>
+
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">¡Bienvenido!</p>
+
+            <h1 class="headline headline-1 section-title">
+              ¿Estás <span class="span">listo?</span>
+            </h1>
+
+            <p class="hero-text">
+              ¡Sumérgete en el emocionante mundo del fútbol con Golazo! Desde transmisiones en vivo de los mejores partidos hasta noticias de último minuto y una comunidad vibrante de aficionados.<br>
+              Comparte tu pasión con otros aficionados y disfruta de una experiencia futbolística incomparable, todo desde la comodidad de tu dispositivo. Únete a Golazo y vive el fútbol como nunca antes lo habías hecho.
+            </p>
+
+            <div >
+                
+                <a class="btn btn-primary" href="./Golazo!.apk" download="Golazo! 1.1">
+                    <span class="span"">Descargar Apk</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>              
+
+            </div>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.png" width="327" height="490" alt="Wren Clark" class="w-100">
+
+            <img src="./assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img id="holabro" src="./assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                Visualizar App
+              </h2>
+
+              <p class="card-text">
+                Éstas capturas fueron tomadas en pleno desarrollo por lo cuál ahora debe de estar mejorado con más contenido para disfrutar.
+              </p>
+
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-1.png" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Login</span>
+
+                      <p class="slider-subtitle">Golazo!</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-2.png" width="507" height="618" loading="lazy" alt="Travel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">En Vivo</span>
+
+                      <p class="slider-subtitle">Golazo!</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-3.png" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Chat Global</span>
+
+                      <p class="slider-subtitle">Golazo!</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-4.png" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Noticias</span>
+
+                      <p class="slider-subtitle">Golazo!</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-5.png" width="507" height="618" loading="lazy" alt="Lifestyle"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">VipSección</span>
+
+                      <p class="slider-subtitle">Golazo!</p>
+                    </div>
+
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+      
+      <section class="section feature" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 id="holah2" class="headline headline-2 section-title">
+            <span class="span">Información</span>
+          </h2>
+          
+
+          <details class="detalles2">
+              <summary>
+                  Transmisión en vivo.
+              </summary>
+              <p class="parrafo9" > <br>
+                  Las transmisiones online son brindadas por páginas de internet y no necesitan de Golazo!, Golazo! solo se encarga de darte muchas opciones en un mismo lugar.
+              </p>
+          </details>
+          
+          
+          <details class="detalles2">
+              <summary>
+                  Noticias de último minuto.
+              </summary>
+              <p class="parrafo9" > <br>
+                  Las noticias en la app son gracias a los links RSS que hacen posible brindarles la información rápida de los medios de información mas famosas del mundo.
+              </p>
+          </details>
+          
+          
+          <details class="detalles2">
+              <summary>
+                  Chat Global.
+              </summary>
+              <p class="parrafo9" > <br>
+                  El chat principal es y será solo para debatir sobre futbol y compartir las experiencias, si se trata del "Chat Vip" ahí si podrán compartir contenido explícito sin consecuencias.
+              </p>
+          </details>
+          
+          
+          <details class="detalles2">
+              <summary>
+                  Actualizaciones frecuentes.
+              </summary>
+              <p class="parrafo9" > <br>
+                  Golazo! aún está en su fase incompleta, lo que implica que recibirá muchas actualizaciones en vivo y se irán agregando más contenido.
+              </p>
+          </details>
+          
+          
+          <details class="detalles2">
+              <summary>
+                  Soporte al cliente.
+              </summary>
+              <p class="parrafo9" > <br>
+                  Si tienes algún problema o quieras sugerir una idea, puedes contactar al instagram del creador desde la misma aplicación haciendo clic en el icono de soporte en la parte superior derecha.
+              </p>
+          </details>
+          
+          
+          <details class="detalles2">
+              <summary>
+                  ¿La aplicación es ilegal?
+              </summary>
+              <p class="parrafo9" > <br>
+                  Por una parte sí, porque distribuye el fútbol ilegal. Por otra parte no somos los Proveedores.
+              </p>
+          </details>
+          
+          
+          <details class="detalles2">
+              <summary>
+                  VipSección
+              </summary>
+              <p class="parrafo9" > <br>
+                  Apartado con las páginas xxx más visitadas en el mundo. También cuenta con un Chat donde podran compartir contenido con toda la comunidad y ¿cómo no? también en privado con el usuario que deseen.
+              </p>
+          </details>
+          
+          
+          <details class="detalles2">
+              <summary>
+                  Ingresar a VipSección
+              </summary>
+              <p class="parrafo9" > <br>
+                  Para ingresar a "VipSección" es necesario la contraseña: lexis.xit <br> <spam id="recuerda">Recuerda:</spam> Consumir este tipo de material puede causar ansiedad y afectar tu bienestar emocional.
+              </p>
+          </details>
+          
+
+        </div>
+
+      </section>
+      
+      <footer>
+          <p> <br>
+              Copyright 2024 &copy innovixtech.py@gmail.com
+              <br>ㅤ
+          </p>
+      </footer>
+      
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
